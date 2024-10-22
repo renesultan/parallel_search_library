@@ -1,0 +1,34 @@
+
+=== Hybrid Advanced Implementation Analysis ===
+
+Vector size: 10000
+  Non-existent value search:
+    Total time: 190 microseconds
+    Found 0 occurrences
+  Existing value search:
+    Total time: 198 microseconds
+    Found 1 occurrences
+
+Vector size: 100000
+  Non-existent value search:
+    Total time: 357 microseconds
+    Found 0 occurrences
+  Existing value search:
+    Total time: 309 microseconds
+    Found 1 occurrences
+
+Vector size: 1000000
+  Non-existent value search:
+    Total time: 1346 microseconds
+    Found 0 occurrences
+  Existing value search:
+    Total time: 1282 microseconds
+    Found 1 occurrences
+
+Vector size: 10000000
+  Non-existent value search:
+    Total time: 9802 microseconds
+    Found 0 occurrences
+  Existing value search:
+    Total time: 9973 microseconds
+    Found 1 occurrences

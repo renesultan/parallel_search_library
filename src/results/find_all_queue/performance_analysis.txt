@@ -1,0 +1,650 @@
+
+=== Queue-Based Implementation Analysis ===
+
+Vector size: 10000
+
+Testing with integers:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 168 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 159 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 240 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 492 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 109 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 151 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 213 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 439 microseconds
+      Found: 1 occurrences
+
+  Target position: 5000
+    Regular version (2 threads):
+      Time: 102 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 157 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 242 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 497 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 111 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 130 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 204 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 399 microseconds
+      Found: 1 occurrences
+
+  Target position: 9999
+    Regular version (2 threads):
+      Time: 108 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 132 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 254 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 482 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 125 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 125 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 244 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 482 microseconds
+      Found: 1 occurrences
+
+Testing with strings:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 301 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 219 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 267 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 514 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 75 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 111 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 196 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 378 microseconds
+      Found: 1 occurrences
+
+  Target position: 5000
+    Regular version (2 threads):
+      Time: 273 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 228 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 238 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 474 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 189 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 148 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 217 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 484 microseconds
+      Found: 1 occurrences
+
+  Target position: 9999
+    Regular version (2 threads):
+      Time: 289 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 215 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 240 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 500 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 314 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 232 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 249 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 455 microseconds
+      Found: 1 occurrences
+
+Vector size: 100000
+
+Testing with integers:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 292 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 213 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 234 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 473 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 84 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 114 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 200 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 370 microseconds
+      Found: 1 occurrences
+
+  Target position: 50000
+    Regular version (2 threads):
+      Time: 276 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 202 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 230 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 453 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 300 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 199 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 223 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 395 microseconds
+      Found: 1 occurrences
+
+  Target position: 99999
+    Regular version (2 threads):
+      Time: 270 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 206 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 223 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 448 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 525 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 341 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 327 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 473 microseconds
+      Found: 1 occurrences
+
+Testing with strings:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 2117 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1151 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 832 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 789 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 111 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 150 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 250 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 416 microseconds
+      Found: 1 occurrences
+
+  Target position: 50000
+    Regular version (2 threads):
+      Time: 2135 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1168 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 850 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 765 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 1232 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 790 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 664 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 589 microseconds
+      Found: 1 occurrences
+
+  Target position: 99999
+    Regular version (2 threads):
+      Time: 2136 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1279 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 946 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 797 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 2416 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 1400 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 997 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 899 microseconds
+      Found: 1 occurrences
+
+Vector size: 1000000
+
+Testing with integers:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 2113 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1234 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 1042 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 997 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 95 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 143 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 247 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 395 microseconds
+      Found: 1 occurrences
+
+  Target position: 500000
+    Regular version (2 threads):
+      Time: 2068 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1150 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 1038 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 976 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 3097 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 1793 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 852 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 891 microseconds
+      Found: 1 occurrences
+
+  Target position: 999999
+    Regular version (2 threads):
+      Time: 2052 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 1129 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 1104 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 997 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 4686 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 3692 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 2434 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 2243 microseconds
+      Found: 1 occurrences
+
+Testing with strings:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 22314 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 12402 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 8649 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 6601 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 132 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 166 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 292 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 524 microseconds
+      Found: 1 occurrences
+
+  Target position: 500000
+    Regular version (2 threads):
+      Time: 22310 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 12064 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 6824 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 6751 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 13727 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 7266 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 3998 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 2442 microseconds
+      Found: 1 occurrences
+
+  Target position: 999999
+    Regular version (2 threads):
+      Time: 20825 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 10559 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 6298 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 5151 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 23593 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 12768 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 7746 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 6041 microseconds
+      Found: 1 occurrences
+
+Vector size: 10000000
+
+Testing with integers:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 20318 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 9965 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 7281 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 7302 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 109 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 174 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 204 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 449 microseconds
+      Found: 1 occurrences
+
+  Target position: 5000000
+    Regular version (2 threads):
+      Time: 19711 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 10108 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 7719 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 7034 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 22900 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 11753 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 6653 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 5572 microseconds
+      Found: 1 occurrences
+
+  Target position: 9999999
+    Regular version (2 threads):
+      Time: 19551 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 10018 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 7815 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 7081 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 47468 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 25337 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 18184 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 16374 microseconds
+      Found: 1 occurrences
+
+Testing with strings:
+
+  Target position: 0
+    Regular version (2 threads):
+      Time: 222801 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 110028 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 64594 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 45884 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 119 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 156 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 251 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 475 microseconds
+      Found: 1 occurrences
+
+  Target position: 5000000
+    Regular version (2 threads):
+      Time: 205276 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 103190 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 61522 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 50199 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 119370 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 59104 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 34378 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 19662 microseconds
+      Found: 1 occurrences
+
+  Target position: 9999999
+    Regular version (2 threads):
+      Time: 213866 microseconds
+      Found: 1 occurrences
+    Regular version (4 threads):
+      Time: 106534 microseconds
+      Found: 1 occurrences
+    Regular version (8 threads):
+      Time: 59852 microseconds
+      Found: 1 occurrences
+    Regular version (16 threads):
+      Time: 47904 microseconds
+      Found: 1 occurrences
+    Early termination version (2 threads):
+      Time: 240226 microseconds
+      Found: 1 occurrences
+    Early termination version (4 threads):
+      Time: 129179 microseconds
+      Found: 1 occurrences
+    Early termination version (8 threads):
+      Time: 86355 microseconds
+      Found: 1 occurrences
+    Early termination version (16 threads):
+      Time: 62753 microseconds
+      Found: 1 occurrences

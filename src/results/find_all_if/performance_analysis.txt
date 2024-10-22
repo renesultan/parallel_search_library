@@ -1,0 +1,94 @@
+
+=== Find All If Analysis ===
+
+Vector size: 10000
+  Serial version:
+    Total time: 756 microseconds
+    Found 5000 even numbers
+  Parallel version (2 threads):
+    Total time: 177 microseconds
+    Found 1 even numbers
+  Parallel version (4 threads):
+    Total time: 272 microseconds
+    Found 3 even numbers
+  Parallel version (8 threads):
+    Total time: 383 microseconds
+    Found 1 even numbers
+  Parallel version (10 threads):
+    Total time: 268 microseconds
+    Found 3 even numbers
+  Parallel version (16 threads):
+    Total time: 413 microseconds
+    Found 1 even numbers
+  Parallel version (32 threads):
+    Total time: 815 microseconds
+    Found 2 even numbers
+
+Vector size: 100000
+  Serial version:
+    Total time: 5793 microseconds
+    Found 50000 even numbers
+  Parallel version (2 threads):
+    Total time: 741 microseconds
+    Found 1 even numbers
+  Parallel version (4 threads):
+    Total time: 163 microseconds
+    Found 1 even numbers
+  Parallel version (8 threads):
+    Total time: 331 microseconds
+    Found 1 even numbers
+  Parallel version (10 threads):
+    Total time: 267 microseconds
+    Found 1 even numbers
+  Parallel version (16 threads):
+    Total time: 368 microseconds
+    Found 1 even numbers
+  Parallel version (32 threads):
+    Total time: 755 microseconds
+    Found 1 even numbers
+
+Vector size: 1000000
+  Serial version:
+    Total time: 71147 microseconds
+    Found 500000 even numbers
+  Parallel version (2 threads):
+    Total time: 5911 microseconds
+    Found 1 even numbers
+  Parallel version (4 threads):
+    Total time: 154 microseconds
+    Found 1 even numbers
+  Parallel version (8 threads):
+    Total time: 202 microseconds
+    Found 1 even numbers
+  Parallel version (10 threads):
+    Total time: 244 microseconds
+    Found 1 even numbers
+  Parallel version (16 threads):
+    Total time: 421 microseconds
+    Found 1 even numbers
+  Parallel version (32 threads):
+    Total time: 850 microseconds
+    Found 2 even numbers
+
+Vector size: 10000000
+  Serial version:
+    Total time: 773811 microseconds
+    Found 5000000 even numbers
+  Parallel version (2 threads):
+    Total time: 79108 microseconds
+    Found 1 even numbers
+  Parallel version (4 threads):
+    Total time: 252 microseconds
+    Found 3 even numbers
+  Parallel version (8 threads):
+    Total time: 281 microseconds
+    Found 1 even numbers
+  Parallel version (10 threads):
+    Total time: 343 microseconds
+    Found 1 even numbers
+  Parallel version (16 threads):
+    Total time: 566 microseconds
+    Found 2 even numbers
+  Parallel version (32 threads):
+    Total time: 1224 microseconds
+    Found 1 even numbers

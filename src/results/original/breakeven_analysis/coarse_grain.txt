@@ -1,0 +1,28 @@
+=== Break-even Point Analysis ===
+Vector size: 1000
+Serial time: 14 microseconds
+Parallel time: 263 microseconds
+Speedup: 0.0532319
+
+Vector size: 10000
+Serial time: 144 microseconds
+Parallel time: 297 microseconds
+Speedup: 0.484848
+
+Vector size: 100000
+Serial time: 1438 microseconds
+Parallel time: 412 microseconds
+Speedup: 3.49029
+
+Vector size: 1000000
+Serial time: 14589 microseconds
+Parallel time: 1064 microseconds
+Speedup: 13.7115
+
+Vector size: 10000000
+Serial time: 157701 microseconds
+Parallel time: 9559 microseconds
+Speedup: 16.4976
+
+
+=== Detailed Break-even Point Analysis ===

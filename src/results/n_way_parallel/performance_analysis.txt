@@ -1,0 +1,250 @@
+
+=== N-way Parallelism Analysis with Different Vector Sizes ===
+
+Vector size: 10000
+  Thread count: 2 (Original)
+    Total time: 143 microseconds
+    Thread creation time: 71 microseconds
+    Search time: 72 microseconds
+    Found 0 occurrences
+  Thread count: 2 (Thread Pool)
+    Total time: 224 microseconds
+    Thread creation time: 107 microseconds
+    Search time: 117 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Original)
+    Total time: 160 microseconds
+    Thread creation time: 87 microseconds
+    Search time: 73 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Thread Pool)
+    Total time: 191 microseconds
+    Thread creation time: 93 microseconds
+    Search time: 98 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Original)
+    Total time: 210 microseconds
+    Thread creation time: 151 microseconds
+    Search time: 59 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Thread Pool)
+    Total time: 307 microseconds
+    Thread creation time: 162 microseconds
+    Search time: 145 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Original)
+    Total time: 278 microseconds
+    Thread creation time: 194 microseconds
+    Search time: 84 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Thread Pool)
+    Total time: 353 microseconds
+    Thread creation time: 172 microseconds
+    Search time: 181 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Original)
+    Total time: 381 microseconds
+    Thread creation time: 309 microseconds
+    Search time: 72 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Thread Pool)
+    Total time: 603 microseconds
+    Thread creation time: 370 microseconds
+    Search time: 233 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Original)
+    Total time: 737 microseconds
+    Thread creation time: 608 microseconds
+    Search time: 129 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Thread Pool)
+    Total time: 1077 microseconds
+    Thread creation time: 652 microseconds
+    Search time: 425 microseconds
+    Found 0 occurrences
+
+Vector size: 100000
+  Thread count: 2 (Original)
+    Total time: 319 microseconds
+    Thread creation time: 80 microseconds
+    Search time: 239 microseconds
+    Found 0 occurrences
+  Thread count: 2 (Thread Pool)
+    Total time: 307 microseconds
+    Thread creation time: 46 microseconds
+    Search time: 261 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Original)
+    Total time: 215 microseconds
+    Thread creation time: 71 microseconds
+    Search time: 144 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Thread Pool)
+    Total time: 246 microseconds
+    Thread creation time: 74 microseconds
+    Search time: 172 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Original)
+    Total time: 241 microseconds
+    Thread creation time: 144 microseconds
+    Search time: 97 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Thread Pool)
+    Total time: 342 microseconds
+    Thread creation time: 156 microseconds
+    Search time: 186 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Original)
+    Total time: 267 microseconds
+    Thread creation time: 179 microseconds
+    Search time: 88 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Thread Pool)
+    Total time: 399 microseconds
+    Thread creation time: 213 microseconds
+    Search time: 186 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Original)
+    Total time: 418 microseconds
+    Thread creation time: 333 microseconds
+    Search time: 85 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Thread Pool)
+    Total time: 617 microseconds
+    Thread creation time: 350 microseconds
+    Search time: 267 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Original)
+    Total time: 729 microseconds
+    Thread creation time: 595 microseconds
+    Search time: 134 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Thread Pool)
+    Total time: 1087 microseconds
+    Thread creation time: 626 microseconds
+    Search time: 461 microseconds
+    Found 0 occurrences
+
+Vector size: 1000000
+  Thread count: 2 (Original)
+    Total time: 2197 microseconds
+    Thread creation time: 77 microseconds
+    Search time: 2120 microseconds
+    Found 0 occurrences
+  Thread count: 2 (Thread Pool)
+    Total time: 2081 microseconds
+    Thread creation time: 56 microseconds
+    Search time: 2025 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Original)
+    Total time: 1152 microseconds
+    Thread creation time: 67 microseconds
+    Search time: 1085 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Thread Pool)
+    Total time: 1244 microseconds
+    Thread creation time: 111 microseconds
+    Search time: 1133 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Original)
+    Total time: 931 microseconds
+    Thread creation time: 119 microseconds
+    Search time: 812 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Thread Pool)
+    Total time: 1046 microseconds
+    Thread creation time: 151 microseconds
+    Search time: 895 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Original)
+    Total time: 918 microseconds
+    Thread creation time: 145 microseconds
+    Search time: 773 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Thread Pool)
+    Total time: 1099 microseconds
+    Thread creation time: 215 microseconds
+    Search time: 884 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Original)
+    Total time: 1065 microseconds
+    Thread creation time: 237 microseconds
+    Search time: 828 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Thread Pool)
+    Total time: 1466 microseconds
+    Thread creation time: 402 microseconds
+    Search time: 1064 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Original)
+    Total time: 1136 microseconds
+    Thread creation time: 869 microseconds
+    Search time: 267 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Thread Pool)
+    Total time: 1674 microseconds
+    Thread creation time: 1067 microseconds
+    Search time: 607 microseconds
+    Found 0 occurrences
+
+Vector size: 10000000
+  Thread count: 2 (Original)
+    Total time: 83341 microseconds
+    Thread creation time: 62 microseconds
+    Search time: 83279 microseconds
+    Found 0 occurrences
+  Thread count: 2 (Thread Pool)
+    Total time: 29078 microseconds
+    Thread creation time: 94 microseconds
+    Search time: 28984 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Original)
+    Total time: 11101 microseconds
+    Thread creation time: 64 microseconds
+    Search time: 11037 microseconds
+    Found 0 occurrences
+  Thread count: 4 (Thread Pool)
+    Total time: 11347 microseconds
+    Thread creation time: 96 microseconds
+    Search time: 11251 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Original)
+    Total time: 10143 microseconds
+    Thread creation time: 194 microseconds
+    Search time: 9949 microseconds
+    Found 0 occurrences
+  Thread count: 8 (Thread Pool)
+    Total time: 10140 microseconds
+    Thread creation time: 163 microseconds
+    Search time: 9977 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Original)
+    Total time: 11506 microseconds
+    Thread creation time: 192 microseconds
+    Search time: 11314 microseconds
+    Found 0 occurrences
+  Thread count: 10 (Thread Pool)
+    Total time: 11128 microseconds
+    Thread creation time: 350 microseconds
+    Search time: 10778 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Original)
+    Total time: 10613 microseconds
+    Thread creation time: 261 microseconds
+    Search time: 10352 microseconds
+    Found 0 occurrences
+  Thread count: 16 (Thread Pool)
+    Total time: 10390 microseconds
+    Thread creation time: 475 microseconds
+    Search time: 9915 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Original)
+    Total time: 9990 microseconds
+    Thread creation time: 742 microseconds
+    Search time: 9248 microseconds
+    Found 0 occurrences
+  Thread count: 32 (Thread Pool)
+    Total time: 111739 microseconds
+    Thread creation time: 2937 microseconds
+    Search time: 108802 microseconds
+    Found 0 occurrences

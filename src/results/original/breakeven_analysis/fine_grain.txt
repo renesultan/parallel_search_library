@@ -1,0 +1,61 @@
+=== Detailed Break-even Point Analysis ===
+Vector size: 10000
+Serial time: 146 microseconds
+Parallel time: 268 microseconds
+Speedup: 0.544776
+Serial is faster
+
+Vector size: 20000
+Serial time: 288 microseconds
+Parallel time: 228 microseconds
+Speedup: 1.26316
+Parallel is faster
+
+Vector size: 30000
+Serial time: 431 microseconds
+Parallel time: 247 microseconds
+Speedup: 1.74494
+Parallel is faster
+
+Vector size: 40000
+Serial time: 575 microseconds
+Parallel time: 261 microseconds
+Speedup: 2.20307
+Parallel is faster
+
+Vector size: 50000
+Serial time: 723 microseconds
+Parallel time: 244 microseconds
+Speedup: 2.96311
+Parallel is faster
+
+Vector size: 60000
+Serial time: 870 microseconds
+Parallel time: 272 microseconds
+Speedup: 3.19853
+Parallel is faster
+
+Vector size: 70000
+Serial time: 1006 microseconds
+Parallel time: 278 microseconds
+Speedup: 3.61871
+Parallel is faster
+
+Vector size: 80000
+Serial time: 1157 microseconds
+Parallel time: 303 microseconds
+Speedup: 3.81848
+Parallel is faster
+
+Vector size: 90000
+Serial time: 1303 microseconds
+Parallel time: 278 microseconds
+Speedup: 4.68705
+Parallel is faster
+
+Vector size: 100000
+Serial time: 1437 microseconds
+Parallel time: 306 microseconds
+Speedup: 4.69608
+Parallel is faster
+

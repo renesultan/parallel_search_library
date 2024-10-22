@@ -1,0 +1,214 @@
+
+=== Find All If Early Termination Analysis ===
+
+Vector size: 10000
+
+  Looking for first even number:
+    Serial version:
+      Time: 9 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 122 microseconds
+      Found: 2 occurrences
+    Parallel version (4 threads):
+      Time: 128 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 237 microseconds
+      Found: 2 occurrences
+    Parallel version (16 threads):
+      Time: 419 microseconds
+      Found: 2 occurrences
+
+  Looking for first number divisible by 5000:
+    Serial version:
+      Time: 149 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 178 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 189 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 206 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 376 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 10000:
+    Serial version:
+      Time: 297 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 199 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 181 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 283 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 382 microseconds
+      Found: 1 occurrences
+
+Vector size: 100000
+
+  Looking for first even number:
+    Serial version:
+      Time: 2 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 65 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 108 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 190 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 360 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 50000:
+    Serial version:
+      Time: 1479 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 1178 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 707 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 623 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 591 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 100000:
+    Serial version:
+      Time: 3189 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 1283 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 833 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 689 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 866 microseconds
+      Found: 1 occurrences
+
+Vector size: 1000000
+
+  Looking for first even number:
+    Serial version:
+      Time: 4 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 102 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 134 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 206 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 390 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 500000:
+    Serial version:
+      Time: 15175 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 11366 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 5637 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 4744 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 2585 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 1000000:
+    Serial version:
+      Time: 131901 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 11570 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 6460 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 4644 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 4815 microseconds
+      Found: 1 occurrences
+
+Vector size: 10000000
+
+  Looking for first even number:
+    Serial version:
+      Time: 3 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 151 microseconds
+      Found: 2 occurrences
+    Parallel version (4 threads):
+      Time: 264 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 250 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 660 microseconds
+      Found: 2 occurrences
+
+  Looking for first number divisible by 5000000:
+    Serial version:
+      Time: 263046 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 135585 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 60611 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 41007 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 124648 microseconds
+      Found: 1 occurrences
+
+  Looking for first number divisible by 10000000:
+    Serial version:
+      Time: 361934 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 129411 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 152816 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 59031 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 48976 microseconds
+      Found: 1 occurrences

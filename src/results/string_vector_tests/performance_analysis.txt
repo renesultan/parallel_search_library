@@ -1,0 +1,432 @@
+
+=== String Vector Performance Analysis ===
+
+Vector size: 10000
+
+Target position: 0
+  Serial find_all:
+    Time: 507 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 65 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 76 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 141 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 342 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 7 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 100 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 142 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 255 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 408 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 1 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 96 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 136 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 255 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 420 microseconds
+    Found: 1 occurrences
+
+Target position: 5000
+  Serial find_all:
+    Time: 493 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 36 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 62 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 159 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 336 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 285 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 84 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 129 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 249 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 401 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 210 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 93 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 135 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 276 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 432 microseconds
+    Found: 1 occurrences
+
+Target position: 9999
+  Serial find_all:
+    Time: 491 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 37 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 72 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 211 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 380 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 568 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 347 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 262 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 307 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 439 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 420 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 333 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 223 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 300 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 469 microseconds
+    Found: 1 occurrences
+
+Vector size: 100000
+
+Target position: 0
+  Serial find_all:
+    Time: 5489 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 49 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 60 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 165 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 267 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 2 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 87 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 147 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 223 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 362 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 1 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 99 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 124 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 238 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 403 microseconds
+    Found: 1 occurrences
+
+Target position: 50000
+  Serial find_all:
+    Time: 5090 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 46 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 93 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 182 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 275 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 2847 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 114 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 140 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 213 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 452 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 2114 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 102 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 143 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 256 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 442 microseconds
+    Found: 1 occurrences
+
+Target position: 99999
+  Serial find_all:
+    Time: 5053 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 48 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 84 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 172 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 318 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 5789 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 2624 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 1581 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 1085 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 1051 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 4220 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 1992 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 1179 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 781 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 840 microseconds
+    Found: 1 occurrences
+
+Vector size: 1000000
+
+Target position: 0
+  Serial find_all:
+    Time: 101039 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 47 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 67 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 141 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 250 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 2 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 116 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 131 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 197 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 384 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 1 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 91 microseconds
+    Found: 2 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 98 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 211 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 397 microseconds
+    Found: 1 occurrences
+
+Target position: 500000
+  Serial find_all:
+    Time: 100414 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 51 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 74 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 144 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 271 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 51277 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 114 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 166 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 230 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 495 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 4238 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 85 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 139 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 239 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 435 microseconds
+    Found: 1 occurrences
+
+Target position: 999999
+  Serial find_all:
+    Time: 99712 microseconds
+    Found: 1 occurrences
+  Parallel find_all (2 threads):
+    Thread creation time: 48 microseconds
+    Found: 1 occurrences
+  Parallel find_all (4 threads):
+    Thread creation time: 66 microseconds
+    Found: 1 occurrences
+  Parallel find_all (8 threads):
+    Thread creation time: 139 microseconds
+    Found: 1 occurrences
+  Parallel find_all (16 threads):
+    Thread creation time: 297 microseconds
+    Found: 1 occurrences
+  Serial early termination find_all:
+    Time: 104518 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (2 threads):
+    Time: 51598 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (4 threads):
+    Time: 27697 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (8 threads):
+    Time: 15694 microseconds
+    Found: 1 occurrences
+  Parallel early termination find_all (16 threads):
+    Time: 16633 microseconds
+    Found: 1 occurrences
+  Serial find_all_if (length predicate):
+    Time: 4375 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (2 threads):
+    Time: 103 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (4 threads):
+    Time: 145 microseconds
+    Found: 1 occurrences
+  Parallel find_all_if (length predicate) (8 threads):
+    Time: 218 microseconds
+    Found: 2 occurrences
+  Parallel find_all_if (length predicate) (16 threads):
+    Time: 421 microseconds
+    Found: 1 occurrences
+

@@ -1,0 +1,94 @@
+
+=== Find All If Future Analysis ===
+
+Vector size: 10000
+  Serial version:
+    Total time: 926 microseconds
+    Found 5000 even numbers
+  Parallel version with future (2 threads):
+    Total time: 296 microseconds
+    Found 1 even numbers
+  Parallel version with future (4 threads):
+    Total time: 1613 microseconds
+    Found 1 even numbers
+  Parallel version with future (8 threads):
+    Total time: 316 microseconds
+    Found 1 even numbers
+  Parallel version with future (10 threads):
+    Total time: 282 microseconds
+    Found 1 even numbers
+  Parallel version with future (16 threads):
+    Total time: 410 microseconds
+    Found 1 even numbers
+  Parallel version with future (32 threads):
+    Total time: 937 microseconds
+    Found 1 even numbers
+
+Vector size: 100000
+  Serial version:
+    Total time: 6211 microseconds
+    Found 50000 even numbers
+  Parallel version with future (2 threads):
+    Total time: 708 microseconds
+    Found 1 even numbers
+  Parallel version with future (4 threads):
+    Total time: 128 microseconds
+    Found 1 even numbers
+  Parallel version with future (8 threads):
+    Total time: 195 microseconds
+    Found 1 even numbers
+  Parallel version with future (10 threads):
+    Total time: 304 microseconds
+    Found 1 even numbers
+  Parallel version with future (16 threads):
+    Total time: 502 microseconds
+    Found 1 even numbers
+  Parallel version with future (32 threads):
+    Total time: 1082 microseconds
+    Found 1 even numbers
+
+Vector size: 1000000
+  Serial version:
+    Total time: 58729 microseconds
+    Found 500000 even numbers
+  Parallel version with future (2 threads):
+    Total time: 6591 microseconds
+    Found 1 even numbers
+  Parallel version with future (4 threads):
+    Total time: 145 microseconds
+    Found 1 even numbers
+  Parallel version with future (8 threads):
+    Total time: 200 microseconds
+    Found 1 even numbers
+  Parallel version with future (10 threads):
+    Total time: 260 microseconds
+    Found 1 even numbers
+  Parallel version with future (16 threads):
+    Total time: 402 microseconds
+    Found 1 even numbers
+  Parallel version with future (32 threads):
+    Total time: 708 microseconds
+    Found 1 even numbers
+
+Vector size: 10000000
+  Serial version:
+    Total time: 704011 microseconds
+    Found 5000000 even numbers
+  Parallel version with future (2 threads):
+    Total time: 61547 microseconds
+    Found 1 even numbers
+  Parallel version with future (4 threads):
+    Total time: 131 microseconds
+    Found 1 even numbers
+  Parallel version with future (8 threads):
+    Total time: 217 microseconds
+    Found 1 even numbers
+  Parallel version with future (10 threads):
+    Total time: 238 microseconds
+    Found 1 even numbers
+  Parallel version with future (16 threads):
+    Total time: 460 microseconds
+    Found 1 even numbers
+  Parallel version with future (32 threads):
+    Total time: 719 microseconds
+    Found 1 even numbers

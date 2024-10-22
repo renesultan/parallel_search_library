@@ -1,0 +1,13 @@
+=== Original Tests ===
+Testing with int vector:
+Found 3 occurrences of 2
+At position: 1
+At position: 4
+At position: 6
+
+Testing with string vector:
+Found 2 occurrences of cherry
+At position: 2
+At position: 4
+
+=== Performance Tests ===

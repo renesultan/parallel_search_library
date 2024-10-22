@@ -1,0 +1,25 @@
+=== Performance Tests ===
+Performance for Large int vector:
+Time taken: 82431 microseconds
+Found 1000000 occurrences
+
+Performance for Large string vector:
+Time taken: 17816 microseconds
+Found 100000 occurrences
+
+
+=== Parallel Performance Tests ===
+Parallel performance for Large int vector:
+Total time: 85970 microseconds
+Thread creation time: 259 microseconds
+Search time: 85711 microseconds
+Found 1000000 occurrences
+
+Parallel performance for Large string vector:
+Total time: 12124 microseconds
+Thread creation time: 195 microseconds
+Search time: 11929 microseconds
+Found 100000 occurrences
+
+
+=== Break-even Point Analysis ===

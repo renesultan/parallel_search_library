@@ -1,0 +1,47 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <chrono>
+#include "../core/find_all.h"
+#include "../core/parallel_find_all.h"
+#include "../advanced/hybrid/hybrid_find_all_advanced.h"
+
+void test_hybrid_advanced()
+{
+    std::cout << "\n=== Hybrid Advanced Implementation Analysis ===" << std::endl;
+    std::vector<size_t> vector_sizes = {10000, 100000, 1000000, 10000000};
+
+    for (size_t size : vector_sizes)
+    {
+        std::cout << "\nVector size: " << size << std::endl;
+        std::vector<int> numbers(size, 42);
+        int search_value = 43;
+
+        // Test with non-existent value
+        auto start = std::chrono::high_resolution_clock::now();
+        auto results = hybrid_find_all_advanced(numbers, search_value);
+        auto end = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+        std::cout << "  Non-existent value search:" << std::endl;
+        std::cout << "    Total time: " << duration.count() << " microseconds" << std::endl;
+        std::cout << "    Found " << results.size() << " occurrences" << std::endl;
+
+        // Test with existing value
+        numbers[size / 2] = 43; // Insert searchable value in the middle
+        start = std::chrono::high_resolution_clock::now();
+        results = hybrid_find_all_advanced(numbers, search_value);
+        end = std::chrono::high_resolution_clock::now();
+        duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+        std::cout << "  Existing value search:" << std::endl;
+        std::cout << "    Total time: " << duration.count() << " microseconds" << std::endl;
+        std::cout << "    Found " << results.size() << " occurrences" << std::endl;
+    }
+}
+
+int main()
+{
+    test_hybrid_advanced();
+    return 0;
+}

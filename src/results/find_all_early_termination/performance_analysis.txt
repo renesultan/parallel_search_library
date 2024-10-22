@@ -1,0 +1,214 @@
+
+=== Early Termination Find All Analysis ===
+
+Vector size: 10000
+
+  Value at position: 0
+    Serial version:
+      Time: 4 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 100 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 130 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 344 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 727 microseconds
+      Found: 1 occurrences
+
+  Value at position: 5000
+    Serial version:
+      Time: 105 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 84 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 155 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 267 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 407 microseconds
+      Found: 1 occurrences
+
+  Value at position: 9999
+    Serial version:
+      Time: 208 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 150 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 264 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 386 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 532 microseconds
+      Found: 1 occurrences
+
+Vector size: 100000
+
+  Value at position: 0
+    Serial version:
+      Time: 1 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 118 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 139 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 239 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 399 microseconds
+      Found: 1 occurrences
+
+  Value at position: 50000
+    Serial version:
+      Time: 1043 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 85 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 177 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 222 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 432 microseconds
+      Found: 1 occurrences
+
+  Value at position: 99999
+    Serial version:
+      Time: 2118 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 669 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 463 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 444 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 564 microseconds
+      Found: 1 occurrences
+
+Vector size: 1000000
+
+  Value at position: 0
+    Serial version:
+      Time: 2 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 104 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 163 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 284 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 428 microseconds
+      Found: 1 occurrences
+
+  Value at position: 500000
+    Serial version:
+      Time: 10456 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 122 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 129 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 221 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 431 microseconds
+      Found: 1 occurrences
+
+  Value at position: 999999
+    Serial version:
+      Time: 21878 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 5806 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 3010 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 1722 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 2295 microseconds
+      Found: 1 occurrences
+
+Vector size: 10000000
+
+  Value at position: 0
+    Serial version:
+      Time: 2 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 126 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 138 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 229 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 423 microseconds
+      Found: 1 occurrences
+
+  Value at position: 5000000
+    Serial version:
+      Time: 105182 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 99 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 153 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 237 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 425 microseconds
+      Found: 1 occurrences
+
+  Value at position: 9999999
+    Serial version:
+      Time: 211156 microseconds
+      Found: 1 occurrences
+    Parallel version (2 threads):
+      Time: 58597 microseconds
+      Found: 1 occurrences
+    Parallel version (4 threads):
+      Time: 35877 microseconds
+      Found: 1 occurrences
+    Parallel version (8 threads):
+      Time: 21271 microseconds
+      Found: 1 occurrences
+    Parallel version (16 threads):
+      Time: 21461 microseconds
+      Found: 1 occurrences

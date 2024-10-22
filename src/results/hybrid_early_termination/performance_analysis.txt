@@ -1,0 +1,46 @@
+
+=== Hybrid Early Termination Implementation Analysis ===
+
+Vector size: 10000
+  Non-existent value search:
+    Total time: 179 microseconds
+    Found 0 occurrences
+  Existing value search (beginning):
+    Total time: 132 microseconds
+    Found 1 occurrences
+  Existing value search (end):
+    Total time: 181 microseconds
+    Found 1 occurrences
+
+Vector size: 100000
+  Non-existent value search:
+    Total time: 435 microseconds
+    Found 0 occurrences
+  Existing value search (beginning):
+    Total time: 193 microseconds
+    Found 1 occurrences
+  Existing value search (end):
+    Total time: 405 microseconds
+    Found 1 occurrences
+
+Vector size: 1000000
+  Non-existent value search:
+    Total time: 2360 microseconds
+    Found 0 occurrences
+  Existing value search (beginning):
+    Total time: 425 microseconds
+    Found 1 occurrences
+  Existing value search (end):
+    Total time: 2488 microseconds
+    Found 1 occurrences
+
+Vector size: 10000000
+  Non-existent value search:
+    Total time: 22165 microseconds
+    Found 0 occurrences
+  Existing value search (beginning):
+    Total time: 399 microseconds
+    Found 1 occurrences
+  Existing value search (end):
+    Total time: 22959 microseconds
+    Found 1 occurrences
